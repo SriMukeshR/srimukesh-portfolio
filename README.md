@@ -1,26 +1,6 @@
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <a href="https://github.com/srimukesh/project1" target="_blank"><strong>Project 1</strong></a>
-                <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
-            </li>
-            <li>
-                <a href="https://github.com/srimukesh/project2" target="_blank"><strong>Project 2</strong></a>
-                <p>A to-do list app created using React to manage tasks efficiently.</p>
-            </li>
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:srimukeshsri2002@gmail.com">srimukeshsri2002@gmail.com</a></p>
-        <p>Phone: <a href="tel:+916385915743">6385915743</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn Profile</a></p>
-    </section>
-</main>
-<footer>
-    <p>&copy; 2025 Sri Mukesh. All rights reserved.</p>
-</footer>
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is <strong>Sri Mukesh</strong>, and I’m a passionate web developer with a love for creating interactive and visually appealing websites. I specialize in front-end development and have experience with HTML, CSS, JavaScript, and frameworks like React.</p>
+    <p>I enjoy solving problems, learning new technologies, and collaborating with others to bring ideas to life. When I’m not coding, you’ll find me exploring new tools, reading tech blogs, or working on personal projects to sharpen my skills.</p>
+    <p>Feel free to explore my portfolio and reach out if you’d like to collaborate!</p>
+</section>
