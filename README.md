@@ -1,4 +1,7 @@
-<p class="bold-text">Srimukesh Rajkumar, B.Tech Computer Science and Engineering</p>
+<header>
+    <h1>Welcome to the Portfolio of <strong>Srimukesh Rajkumar</strong></h1>
+</header>
+
 
 
 
