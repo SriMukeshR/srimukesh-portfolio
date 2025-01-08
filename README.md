@@ -1,3 +1,27 @@
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #2c3e50; /* Dark color */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
 <section id="about">
     <h2>About Me</h2>
     <p>Hello! My name is <strong>Sri Mukesh</strong>, and I’m a passionate web developer with a love for creating interactive and visually appealing websites. I specialize in front-end development and have experience with HTML, CSS, JavaScript, and frameworks like React.</p>
