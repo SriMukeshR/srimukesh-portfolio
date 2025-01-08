@@ -1,23 +1,4 @@
-header {
-    text-align: center;
-    margin-top: 20px;
-}
-
-header h1 {
-    font-size: 3em;
-    font-weight: bold;
-    color: #2c3e50; /* Dark color */
-}
-
-header p {
-    font-size: 1.2em;
-    color: #7f8c8d;
-    margin-top: 10px;
-}
-
-
-
-
+<p class="bold-text">Srimukesh Rajkumar, B.Tech Computer Science and Engineering</p>
 
 
 
