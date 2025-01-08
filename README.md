@@ -44,3 +44,12 @@ header p {
         </li>
     </ul>
 </section>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to reach out to me through the following:</p>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:srimukeshsri2002@gmail.com">srimukeshsri2002@gmail.com</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+916385915743">+91 6385915743</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/srimukesh" target="_blank">LinkedIn Profile</a></li>
+    </ul>
+</section>
