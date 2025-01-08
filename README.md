@@ -8,20 +8,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to the Portfolio of <strong>Srimukesh Rajkumar</strong></h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <!-- About Me Section -->
     <section id="about">
         <h2>About Me</h2>
