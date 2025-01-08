@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Srimukesh Rajkumar | Portfolio</title>
     <style>
-        /* CSS Styles */
+        /* Resetting default margins and padding */
         * {
             margin: 0;
             padding: 0;
@@ -17,18 +17,17 @@
             background-color: #f4f4f4;
             color: #333;
             line-height: 1.6;
-            margin: 0;
-            padding: 0;
         }
 
         header {
-            background: #333;
-            color: white;
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
             text-align: center;
-            padding: 1rem;
         }
 
         header h1 {
+            margin: 0;
             font-size: 2.5rem;
         }
 
@@ -43,7 +42,7 @@
         }
 
         nav ul li a {
-            color: white;
+            color: #fff;
             text-decoration: none;
         }
 
@@ -52,23 +51,17 @@
             margin: 20px 0;
             background-color: white;
             border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         section h2 {
-            margin-bottom: 10px;
-        }
-
-        section ul {
-            list-style: none;
-        }
-
-        section ul li {
+            font-size: 1.8rem;
             margin-bottom: 10px;
         }
 
         footer {
-            background: #333;
-            color: white;
+            background-color: #333;
+            color: #fff;
             text-align: center;
             padding: 10px;
             position: fixed;
@@ -106,12 +99,11 @@
 <body>
     <!-- Header Section -->
     <header>
-        <h1>Welcome to the Portfolio of <strong>Srimukesh Rajkumar</strong></h1>
+        <h1>Srimukesh Rajkumar's Portfolio</h1>
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -120,9 +112,8 @@
     <!-- About Me Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! My name is <strong>Srimukesh Rajkumar</strong>, and I’m a passionate web developer with a love for creating interactive and visually appealing websites. I have a <strong>B.Tech in Computer Science and Engineering</strong>, and I specialize in front-end development with experience in HTML, CSS, JavaScript, and frameworks like React.</p>
-        <p>I enjoy solving problems, learning new technologies, and collaborating with others to bring ideas to life. When I’m not coding, I enjoy reading tech blogs, exploring new tools, and working on personal projects to sharpen my skills.</p>
-        <p>Feel free to explore my portfolio and reach out if you’d like to collaborate!</p>
+        <p>Hello! My name is <strong>Srimukesh Rajkumar</strong>, and I’m a passionate web developer. I have a <strong>B.Tech in Computer Science and Engineering</strong> and specialize in front-end development with experience in HTML, CSS, JavaScript, and React.</p>
+        <p>I love solving complex problems and building efficient, user-friendly applications. In my free time, I enjoy reading tech blogs, learning new tools, and working on personal projects.</p>
     </section>
 
     <!-- Projects Section -->
@@ -130,45 +121,14 @@
         <h2>My Projects</h2>
         <ul>
             <li>
-                <a href="https://github.com/srimukesh/credit-card-detection" target="_blank"><strong>Credit Card Fraud Detection Using Machine Learning</strong></a>
-                <p>This project focuses on detecting fraudulent credit card transactions using machine learning algorithms.</p>
-                <p><strong>Technologies Used:</strong> Python, Scikit-Learn, Pandas, Matplotlib, Jupyter Notebook</p>
+                <a href="https://github.com/srimukesh/credit-card-detection" target="_blank"><strong>Credit Card Fraud Detection Using ML</strong></a>
+                <p>This project detects fraudulent credit card transactions using machine learning algorithms.</p>
             </li>
             <li>
-                <a href="https://github.com/srimukesh/blockchain-medical-data" target="_blank"><strong>Leveraging Blockchain for Secure and Transparent Medical Data</strong></a>
-                <p>This project uses blockchain technology to store medical data securely and transparently using Ethereum and smart contracts.</p>
-                <p><strong>Technologies Used:</strong> Ethereum, Solidity, Web3.js, JavaScript</p>
+                <a href="https://github.com/srimukesh/blockchain-medical-data" target="_blank"><strong>Blockchain for Secure Medical Data</strong></a>
+                <p>This project uses blockchain technology to store medical data securely and transparently.</p>
             </li>
         </ul>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills & Technologies</h2>
-        <h3>Technical Skills:</h3>
-        <ul>
-            <li>Programming Languages: JavaScript, Python, Java</li>
-            <li>Web Development: HTML, CSS, React, Angular</li>
-            <li>Tools: VS Code, Git, Docker</li>
-            <li>Databases: MySQL, MongoDB</li>
-        </ul>
-        <h3>Certifications:</h3>
-        <ul>
-            <li>Web Development Certificate (Coursera)</li>
-            <li>Data Science and Machine Learning Certificate (edX)</li>
-        </ul>
-        <h3>Soft Skills:</h3>
-        <ul>
-            <li>Problem Solving</li>
-            <li>Communication</li>
-            <li>Teamwork</li>
-        </ul>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume">
-        <h2>Resume</h2>
-        <p>You can download my resume <a href="srimukesh_resume.pdf" download>here</a>.</p>
     </section>
 
     <!-- Contact Section -->
@@ -177,13 +137,18 @@
         <p>Email: <a href="mailto:srimukeshsri2002@gmail.com">srimukeshsri2002@gmail.com</a></p>
         <p>Phone: <a href="tel:+16385915743">6385915743</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/srimukesh" target="_blank">LinkedIn Profile</a></p>
+        
+        <!-- Contact Form -->
         <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br><br>
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required><br><br>
+
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
             <button type="submit">Send Message</button>
         </form>
     </section>
@@ -192,6 +157,5 @@
     <footer>
         <p>&copy; 2025 Srimukesh Rajkumar. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
