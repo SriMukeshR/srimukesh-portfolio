@@ -1,4 +1,3 @@
-# srimukesh-portfolio
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,13 +12,6 @@
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! My name is <strong>Sri Mukesh</strong>, and I’m a passionate web developer with a love for creating interactive and visually appealing websites. I specialize in front-end development and have experience with HTML, CSS, JavaScript, and frameworks like React.</p>
-    <p>I enjoy solving problems, learning new technologies, and collaborating with others to bring ideas to life. When I’m not coding, you’ll find me exploring new tools, reading tech blogs, or working on personal projects to sharpen my skills.</p>
-    <p>Feel free to explore my portfolio and reach out if you’d like to collaborate!</p>
-</section>
-
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -28,13 +20,15 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Hi, I'm [Your Name], a passionate developer specializing in [Your Skills].</p>
+            <p>Hello! My name is <strong>Sri Mukesh</strong>, and I’m a passionate web developer with a love for creating interactive and visually appealing websites. I specialize in front-end development and have experience with HTML, CSS, JavaScript, and frameworks like React.</p>
+            <p>I enjoy solving problems, learning new technologies, and collaborating with others to bring ideas to life. When I’m not coding, you’ll find me exploring new tools, reading tech blogs, or working on personal projects to sharpen my skills.</p>
+            <p>Feel free to explore my portfolio and reach out if you’d like to collaborate!</p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
             <ul>
-                <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1</a></li>
-                <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2</a></li>
+                <li><a href="https://github.com/srimukesh/project1" target="_blank">Project 1</a> - A responsive portfolio website built with HTML, CSS, and JavaScript.</li>
+                <li><a href="https://github.com/srimukesh/project2" target="_blank">Project 2</a> - A to-do list app created using React to manage tasks efficiently.</li>
             </ul>
         </section>
         <section id="contact">
@@ -44,58 +38,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Sri Mukesh. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
-#css
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin: 20px 0;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
-    color: #fff;
-}
