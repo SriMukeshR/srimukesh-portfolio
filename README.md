@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Srimukesh Rajkumar | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header Section -->
@@ -33,7 +32,4 @@
         <h2>My Projects</h2>
         <ul>
             <li>
-                <a href="https://github.com/srimukesh/credit-card-detection" target="_blank"><strong>Credit Card Fraud Detection Using Machine Learning</strong></a>
-                <p>This project focuses on detecting fraudulent credit card transactions using machine learning algorithms.</p>
-                <p><strong>Technologies Used:</strong> Python, Scikit-Learn, Pandas, Matplotlib, Jupyter Notebook</p>
-            
+                <a href="https://github.com/srimukesh/credit-card-detection" target="_blank"><strong>Credit Card Fraud Detection Using Machine Learning</str
